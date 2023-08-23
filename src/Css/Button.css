@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.Button{
+   margin-left: 44%;
+   margin-top: 20px;
+    background-color: brown;
+    height: 50px;
+    width: 150px;
+}
+.page{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1;
+}
+.save{
+   margin: 10px;
+   margin-left: 70px;
+    }
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10px;
+    background-color: aqua;
+    border: none;
+}
+
+.inner{
+    height: 200px;
+    background-color: brown;
+}
